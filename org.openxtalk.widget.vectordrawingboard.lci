@@ -1,0 +1,39 @@
+import module org.openxtalk.widget.vectordrawingboard
+  use com.livecode.canvas
+  use com.livecode.library.widgetutils
+  use com.livecode.widget
+  use com.livecode.array
+  use com.livecode.list
+  use com.livecode.binary
+  use com.livecode.string
+  use com.livecode.typeconvert
+  use com.livecode.engine
+  use com.livecode.arithmetic
+  use com.livecode.logic
+  use com.livecode.char
+  use com.livecode.type
+  use com.livecode.byte
+  handler setLineSize(in pLineSize as Number) returns nothing
+  handler setBackingFillColor(in pColor as String) returns nothing
+  handler getBackingFillColor() returns String
+  handler setIsOpaque(in pBoolean as Boolean) returns optional any
+  variable mCurrentPath as String
+  variable mCurrentPathPointsList as List
+  variable mPathsList as List
+  handler getSVGPaths() returns String
+  handler setSVGPaths(in pPaths as String) returns optional any
+  handler OnStopEditing() returns optional any
+  handler OnSave(out rProperties as Array) returns optional any
+  handler OnLoad(in pProperties as Array) returns optional any
+  handler OnMouseUp() returns optional any
+  handler OnMouseDown() returns optional any
+  handler OnMouseMove() returns optional any
+  handler OnMouseCancel() returns optional any
+  handler OnMouseEnter() returns optional any
+  handler OnMouseLeave() returns optional any
+  handler OnCreate() returns optional any
+  handler OnGeometryChanged() returns optional any
+  handler OnPaint() returns optional any
+  handler OnOpen() returns optional any
+  handler hitTestPath(in pPoint as Point, in pPath as Path, in pStrokeWidth as Number, in pWithin as Boolean) returns Boolean
+end module

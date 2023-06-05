@@ -69,8 +69,7 @@ metadata title is "VectorDrawWidget"
 metadata author is "Paul McClernan for OpenXtalk IDE"
 metadata version is "0.1"
 metadata preferredSize is "600,400"
--- metadata svgicon is ""
-
+metadata svgicon is "M17.8,8.3L20.9,9l0,0l-2.3,0.4l-2,2.7L13.4,12l-3.1-3.2L8.7,8L6.6,8.1l-3.3,2.3l0.7-2.4l2.7-1.6L9,6.3l2.4,1l2.1,2.6 l2.2,0.7L17.8,8.3z M23.8,13.6H1.4V2.9h22.4v1.2L25.1,3V1.5H0.2V15h24.9V8.3l-1.2,1.1V13.6z M30.9,0.4c-0.1-0.1-0.3-0.2-0.4-0.2 c-0.1,0-0.2,0-0.3,0.1L29,1.2l1.8,2.2l1.1-0.8C32.2,2.3,32.2,2,32,1.8L30.9,0.4z M22,6.5l-0.8,2.1l2.6-0.4l6.4-4.4l-1.8-2.2L22,6.5z"
 
 /**
 Syntax:

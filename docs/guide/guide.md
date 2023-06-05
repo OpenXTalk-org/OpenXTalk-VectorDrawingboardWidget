@@ -4,8 +4,8 @@ The widget includes a basic set of properties for now.
 
 ![Vector Drawing Widget](images/export_examp.png)
 
-## SVG Path
-An SVG
+## SVG
+SVG
 <svg viewBox="0 0 65 40" style="display:block;margin:auto" width="auto" height="50">
   <path d="" />
 </svg>
